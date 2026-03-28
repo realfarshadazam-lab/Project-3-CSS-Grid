@@ -5,154 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>CSS Grid Layout - Lakers Theme</title>
 
-    <style>
-      * {
-        box-sizing: border-box;
-        margin: 0;
-        padding: 0;
-      }
-
-      body {
-        font-family: Arial, sans-serif;
-        background-color: #f4f4f4;
-        color: #222;
-      }
-
-      img {
-        max-width: 100%;
-        display: block;
-      }
-
-      .container {
-        width: 90%;
-        max-width: 1200px;
-        margin: 0 auto;
-        padding: 30px 0;
-      }
-
-      .hero {
-        background: linear-gradient(135deg, #552583, #fdb927);
-        color: white;
-        padding: 35px 25px;
-        border-radius: 16px;
-        margin-bottom: 25px;
-        text-align: center;
-      }
-
-      .hero img {
-        width: 110px;
-        margin: 0 auto 15px auto;
-      }
-
-      .hero h1 {
-        font-size: 2rem;
-        margin-bottom: 10px;
-      }
-
-      .hero p {
-        font-size: 1rem;
-        line-height: 1.5;
-        max-width: 800px;
-        margin: 0 auto;
-      }
-
-      .row {
-        display: grid;
-        gap: 20px;
-        margin-bottom: 25px;
-      }
-
-      .card {
-        background-color: white;
-        border-radius: 16px;
-        padding: 20px;
-        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
-      }
-
-      .card img {
-        width: 100%;
-        max-height: 180px;
-        object-fit: contain;
-        margin-bottom: 15px;
-      }
-
-      .card h2,
-      .card h3 {
-        color: #552583;
-        margin-bottom: 10px;
-      }
-
-      .card p {
-        line-height: 1.5;
-        margin-bottom: 10px;
-      }
-
-      .third-row {
-        grid-template-columns: 1fr 3fr;
-      }
-
-      .fourth-row {
-        grid-template-columns: 1fr;
-      }
-
-      .fifth-row {
-        grid-template-columns: 1fr 2fr 1fr;
-      }
-
-      .sixth-row {
-        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-      }
-
-      .badge {
-        display: inline-block;
-        background-color: #552583;
-        color: white;
-        padding: 7px 12px;
-        border-radius: 20px;
-        font-size: 0.85rem;
-        margin-bottom: 12px;
-      }
-
-      .highlight {
-        background-color: #fffdf5;
-        border: 2px solid #fdb927;
-      }
-
-      footer {
-        text-align: center;
-        padding: 20px 10px 35px;
-        color: #555;
-        font-size: 0.95rem;
-      }
-
-      @media (max-width: 900px) {
-        .third-row {
-          grid-template-columns: 1fr;
-        }
-
-        .fifth-row {
-          grid-template-columns: 1fr;
-        }
-
-        .middle {
-          grid-row: 1;
-        }
-      }
-
-      @media (max-width: 600px) {
-        .hero h1 {
-          font-size: 1.6rem;
-        }
-
-        .hero p {
-          font-size: 0.95rem;
-        }
-
-        .row {
-          grid-template-columns: 1fr;
-        }
-      }
-    </style>
+    <!-- Link to external CSS file -->
+    <link rel="stylesheet" href="style.css" />
   </head>
 
   <body>
@@ -175,7 +29,7 @@
           <h2>Team Identity</h2>
           <p>
             The Lakers are one of the most famous teams in the NBA and my favorite
-            team of all time.
+            team of all time. Kobe Bryant, Kareem Abdul Jabbar, Magic Johnson, and Lebron James.
           </p>
         </div>
 
